@@ -131,8 +131,7 @@ const experiences = [
 		points: [
 			"Degree: Associate Degree",
 			"Major: Computer Science",
-			"GPA: 3.25",
-			" Honors: Dean's List, 2016 - 2017",
+			"Honors: Dean's List, 2016 - 2017",
 		],
 	},
 	{
@@ -144,8 +143,7 @@ const experiences = [
 		points: [
 			"Degree: Bachelor of Science",
 			"Major: Computer Science",
-			"GPA: 3.12",
-			" Honors: Dean's List, 2018 - 2019",
+			"Honors: Dean's List, 2018 - 2019",
 		],
 	},
 	{
