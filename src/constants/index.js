@@ -12,17 +12,20 @@ import {
 	tailwind,
 	nodejs,
 	mongodb,
-	git,
-	figma,
+	mySQL,
+	bootstrap,
 	docker,
-	meta,
-	starbucks,
-	tesla,
-	shopify,
-	carrent,
-	jobit,
-	tripguide,
+	sass,
 	threejs,
+	tcclogo,
+	sdsuLogo,
+	bcfLogo,
+	galleryBlogProject,
+	eCommerceWebsite,
+	TravelMap,
+	BookingClone,
+	NanaRestaurant,
+	PlaceStation,
 } from "../assets";
 
 export const navLinks = [
@@ -42,11 +45,11 @@ export const navLinks = [
 
 const services = [
 	{
-		title: "Web Developer",
+		title: "Full Stack Developer",
 		icon: web,
 	},
 	{
-		title: "React Native Developer",
+		title: "Frontend Developer",
 		icon: mobile,
 	},
 	{
@@ -54,7 +57,7 @@ const services = [
 		icon: backend,
 	},
 	{
-		title: "Content Creator",
+		title: "Software Engineer",
 		icon: creator,
 	},
 ];
@@ -67,6 +70,10 @@ const technologies = [
 	{
 		name: "CSS 3",
 		icon: css,
+	},
+	{
+		name: "SASS",
+		icon: sass,
 	},
 	{
 		name: "JavaScript",
@@ -97,117 +104,81 @@ const technologies = [
 		icon: mongodb,
 	},
 	{
+		name: "MySQL",
+		icon: mySQL,
+	},
+	{
+		name: "Bootstrap",
+		icon: bootstrap,
+	},
+	{
 		name: "Three JS",
 		icon: threejs,
 	},
 	{
-		name: "git",
-		icon: git,
-	},
-	{
-		name: "figma",
-		icon: figma,
-	},
-	{
-		name: "docker",
+		name: "Docker",
 		icon: docker,
 	},
 ];
 
 const experiences = [
 	{
-		title: "React.js Developer",
-		company_name: "Starbucks",
-		icon: starbucks,
-		iconBg: "#383E56",
-		date: "March 2020 - April 2021",
+		title: "Student",
+		company_name: "Tacoma Community College",
+		icon: tcclogo,
+		iconBg: "#fff",
+		date: "Sep 2014 - Jun 2017",
 		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
+			"Degree: Associate Degree",
+			"Major: Computer Science",
+			"GPA: 3.25",
+			" Honors: Dean's List, 2016 - 2017",
 		],
 	},
 	{
-		title: "React Native Developer",
-		company_name: "Tesla",
-		icon: tesla,
+		title: "Student",
+		company_name: "San Diego State University",
+		icon: sdsuLogo,
 		iconBg: "#E6DEDD",
-		date: "Jan 2021 - Feb 2022",
+		date: "Aug 2017 - Dec 2021",
 		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
+			"Degree: Bachelor of Science",
+			"Major: Computer Science",
+			"GPA: 3.12",
+			" Honors: Dean's List, 2018 - 2019",
 		],
 	},
 	{
-		title: "Web Developer",
-		company_name: "Shopify",
-		icon: shopify,
-		iconBg: "#383E56",
-		date: "Jan 2022 - Jan 2023",
+		title: "Full Stack Developer",
+		company_name: "BeaconFire Inc",
+		icon: bcfLogo,
+		iconBg: "#84A1D4",
+		date: "May 2022 - Dec 2022",
 		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
+			" Developed an onboarding application using ReactJS and Redux along with a Node.js backend supported by a MongoDB database",
+			"Created new custom interfaces for users using HTML, CSS, and JavaScript.",
+			"Created an online sandbox for users to code with a live preview and implemented a live checklist to give instant feedback.",
+			"Assured cross-browser compatibility & responsiveness on all device sizes using Media Query.",
+			"Implemented lazy loaded component, saving 0.5 seconds on the application load-time.",
+			" Implemented RESTful API with middleware for protected routes and roles.",
+			" Transitioned from React Context API to Redux.",
+			" Held myself accountable by creating deadlines using SCRUM methodology.",
 		],
-	},
-	{
-		title: "Full stack Developer",
-		company_name: "Meta",
-		icon: meta,
-		iconBg: "#E6DEDD",
-		date: "Jan 2023 - Present",
-		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
-		],
-	},
-];
-
-const testimonials = [
-	{
-		testimonial:
-			"I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-		name: "Sara Lee",
-		designation: "CFO",
-		company: "Acme Co",
-		image: "https://randomuser.me/api/portraits/women/4.jpg",
-	},
-	{
-		testimonial:
-			"I've never met a web developer who truly cares about their clients' success like Rick does.",
-		name: "Chris Brown",
-		designation: "COO",
-		company: "DEF Corp",
-		image: "https://randomuser.me/api/portraits/men/5.jpg",
-	},
-	{
-		testimonial:
-			"After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-		name: "Lisa Wang",
-		designation: "CTO",
-		company: "456 Enterprises",
-		image: "https://randomuser.me/api/portraits/women/6.jpg",
 	},
 ];
 
 const projects = [
 	{
-		name: "Car Rent",
+		name: "Gallery Blog",
 		description:
-			"Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+			"A web-based platform that allows users to showcase their pieces of art and photography ranging from breathtaking landscapes to thought-provoking abstract pieces.",
 		tags: [
 			{
 				name: "react",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "mongodb",
+				name: "sanity",
 				color: "green-text-gradient",
 			},
 			{
@@ -215,13 +186,55 @@ const projects = [
 				color: "pink-text-gradient",
 			},
 		],
-		image: carrent,
-		source_code_link: "https://github.com/",
+		image: galleryBlogProject,
+		source_code_link: "https://github.com/tdphuochoang/GalleryBlog",
 	},
 	{
-		name: "Job IT",
+		name: "MyStore",
 		description:
-			"Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+			"An E-Commerce website that provides users with a seamless shopping experience, where they can easily browse through a wide range of products, add them to the cart, and complete the purchase with just a few clicks.",
+		tags: [
+			{
+				name: "react",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "strapi",
+				color: "green-text-gradient",
+			},
+			{
+				name: "scss",
+				color: "pink-text-gradient",
+			},
+		],
+		image: eCommerceWebsite,
+		source_code_link: "https://github.com/tdphuochoang/E-Commerce-App",
+	},
+	{
+		name: "Travel Map",
+		description:
+			"A user-friendly map-based platform, powered by Mapbox, that enables users to mark their favorite locations, create pins, attach descriptions, and share them with the world.",
+		tags: [
+			{
+				name: "react",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "mapbox",
+				color: "green-text-gradient",
+			},
+			{
+				name: "mongodb",
+				color: "pink-text-gradient",
+			},
+		],
+		image: TravelMap,
+		source_code_link: "https://github.com/tdphuochoang/MERN-TravelMap",
+	},
+	{
+		name: "Booking Website",
+		description:
+			"A clone of Booking.com website that allows users to search and book a cozy vacation stay at a luxury or a budget-friendly hostel in the city of their choice prior to the traveling date.",
 		tags: [
 			{
 				name: "react",
@@ -232,34 +245,54 @@ const projects = [
 				color: "green-text-gradient",
 			},
 			{
-				name: "scss",
+				name: "mongodb",
 				color: "pink-text-gradient",
 			},
 		],
-		image: jobit,
-		source_code_link: "https://github.com/",
+		image: BookingClone,
+		source_code_link:
+			"https://github.com/tdphuochoang/WebDevelopment/tree/main/React/my-booking-app",
 	},
 	{
-		name: "Trip Guide",
+		name: "Nana's Restaurant",
 		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+			"Authentic Vietnamese restaurant website that showcases the best of Vietnamese cuisine. The menu is designed to provide users with a seamless and enjoyable user experience.",
 		tags: [
 			{
-				name: "nextjs",
+				name: "html",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "supabase",
+				name: "css",
 				color: "green-text-gradient",
 			},
 			{
-				name: "css",
+				name: "javascript",
 				color: "pink-text-gradient",
 			},
 		],
-		image: tripguide,
-		source_code_link: "https://github.com/",
+		image: NanaRestaurant,
+		source_code_link:
+			"https://github.com/tdphuochoang/WebDevelopment/tree/main/JavaScript%20Vanilla%20Projects/Advanced/Restaurant%20Website",
+	},
+	{
+		name: "PlaceStation",
+		description:
+			"A stunning homepage design for a platform that enables users to easily search and browse through an extensive collection of luxury villa and penthouse rentals in some of the most sought-after cities across the US.",
+		tags: [
+			{
+				name: "react",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "styled-components",
+				color: "green-text-gradient",
+			},
+		],
+		image: PlaceStation,
+		source_code_link:
+			"https://github.com/tdphuochoang/WebDevelopment/tree/main/React/real_estate_v1",
 	},
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
