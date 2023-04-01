@@ -1,8 +1,8 @@
-export const textVariant = (delay) => {
+export const textVariant = (delay, opacity) => {
 	return {
 		hidden: {
 			y: -50,
-			opacity: 0,
+			opacity,
 		},
 		show: {
 			y: 0,
@@ -16,12 +16,12 @@ export const textVariant = (delay) => {
 	};
 };
 
-export const fadeIn = (direction, type, delay, duration) => {
+export const fadeIn = (direction, type, delay, duration, opacity) => {
 	return {
 		hidden: {
 			x: direction === "left" ? 100 : direction === "right" ? -100 : 0,
 			y: direction === "up" ? 100 : direction === "down" ? -100 : 0,
-			opacity: 0,
+			opacity: opacity,
 		},
 		show: {
 			x: 0,
